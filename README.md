@@ -1,2 +1,2 @@
 # DIPCExercises
-Repository when I resolve exercises given by Dairy Interview Pro
+Repository when I solve exercises given by Dairy Interview Pro

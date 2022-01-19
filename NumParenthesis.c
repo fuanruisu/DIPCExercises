@@ -18,8 +18,9 @@ void main() {
 void completeBrackets(char *string){
     int oBrack = 0, cBrack = 0, diff = 0;
      for (int i = 0; i < strlen(string); i++) {
-        if (string[i]==0x28) oBrack++;
-        else if (string[i]==0x29) cBrack++;
+
+        if (string[i] == 0x28) oBrack++;
+        else if (string[i] == 0x29) cBrack++;
         if(oBrack > cBrack) diff = oBrack - cBrack;
         else diff = cBrack - oBrack;
         
